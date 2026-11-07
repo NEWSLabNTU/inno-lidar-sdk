@@ -1,5 +1,5 @@
 project(demo)
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.5)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/../../build/")
 include(${CMAKE_MODULE_PATH}inno_lidar_base.cmake)
